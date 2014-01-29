@@ -12,4 +12,14 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery
+//= require handlebars
+//= require ember
+//= require ember-data
+//= require_self
+//= require easy_proposal
+
+// for more details see: http://emberjs.com/guides/application/
+EasyProposal = Ember.Application.create();
+
 //= require_tree .
