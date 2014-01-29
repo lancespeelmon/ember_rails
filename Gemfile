@@ -44,3 +44,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'ember-rails'
+gem 'ember-source', '1.3.1.1'
