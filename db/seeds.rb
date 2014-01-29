@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+puts "Seeding..."
+
+Proposal.create ([{doc_id: '12345', title: "Foo"}, {doc_id: '45678', title: "Bar"}])
+
+puts "Complete!"

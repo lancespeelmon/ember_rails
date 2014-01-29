@@ -11,11 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140129215636) do
+ActiveRecord::Schema.define(version: 20140129231830) do
 
   create_table "proposals", force: true do |t|
     t.string   "doc_id"
-    t.string   "title"
+    t.text     "title"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
