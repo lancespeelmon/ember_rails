@@ -4,8 +4,6 @@ DS.RESTAdapter.reopen({
 });
 
 EasyProposal.Store = DS.Store.extend({
-  // TODO what is this for?
-  revision: 11,
   // Override the default adapter with the `DS.ActiveModelAdapter` which
   // is built to work nicely with the ActiveModel::Serializers gem.
   adapter: '-active-model'
