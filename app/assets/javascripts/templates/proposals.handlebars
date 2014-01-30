@@ -1,0 +1,11 @@
+<h1>Proposals</h1>
+
+<ul>
+  {{#each controller}}
+    <li>{{#link-to "proposal" this}}{{title}}{{/link-to}}</li>
+  {{else}}
+    <li>There are no proposals.</li>
+  {{/each}}
+</ul>
+
+{{outlet}}

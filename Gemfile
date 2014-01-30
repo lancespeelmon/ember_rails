@@ -19,7 +19,7 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '3.0.4' # ember complains about jquery 1.11.0; back down to 1.10.2
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 # disable to avoid problems with emberjs
