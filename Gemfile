@@ -50,3 +50,6 @@ gem 'ember-source', '1.3.1.1'
 
 # https://devcenter.heroku.com/articles/getting-started-with-rails4
 gem 'rails_12factor', group: :production
+
+# Bootstrap for Sass
+gem "bootstrap-sass", "~> 3.1.0"
