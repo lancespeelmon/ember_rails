@@ -24,10 +24,9 @@ section {
   padding-top: 0.33em;
 }
 
-/* for v1 compatibility */
-.div-outline {
-  outline: 1px solid #1f061f;
-  padding: 7px;
+.list-group .list-group-item .active {
+  border-radius: 1px;
+  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
 }
 
 /* ==========================================================================
