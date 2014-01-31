@@ -1,13 +1,29 @@
 <header id="header">
-  <h2>{{#link-to "index"}}Home{{/link-to}}</h2>
+  <nav id="navbar424" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Easy Proposal</a>
+    </div>
 
-  <nav>
-    <ul>
-      <li>{{#link-to "proposals"}}Proposals{{/link-to}}</li>
-    </ul>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+          <li>{{#link-to "proposals"}}Proposals{{/link-to}}</li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
   </nav>
 </header>
 
-<div id="content">
-  {{outlet}}
+<div id="content" class="container-fluid">
+  <div class="row">
+    <div class="col-md-5">
+      {{outlet}}
+    </div>
+  </div>
 </div>

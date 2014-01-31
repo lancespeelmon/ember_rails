@@ -1,8 +1,6 @@
-<h1>Proposals</h1>
-
-<ul>
+<ul class="list-group">
   {{#each controller}}
-    <li>{{#link-to "proposal" this}}{{title}}{{/link-to}}</li>
+    <li class="list-group-item">{{#link-to "proposal" this}}{{title}}{{/link-to}}</li>
   {{else}}
     <li>There are no proposals.</li>
   {{/each}}
