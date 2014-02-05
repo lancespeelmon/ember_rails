@@ -2,7 +2,6 @@
   <div class="row">
     <div class="col-sm-12 col-md-9 col-lg-9" role="main">
       <form id="easy424Form" class="form-horizontal" role="form">
-        <legend>Application for Federal Assistance SF-424</legend>
 
         <section id="typeInfo"></section>
 
@@ -32,6 +31,40 @@
                       data-placement='auto bottom' data-title='Changed/Corrected Application' data-container='body'
                       data-content='This box must be used if you need to submit the same application again to correct system validation errors, application assembly problems, or to incorporate other changes. When submitting a Changed/Corrected Application.'></span>
             </label>
+          </div>
+        </div>
+
+        {{!-- Lead Unit --}}
+        <div class="form-group">
+          <label class="col-sm-3 control-label" for="prefix">Lead Unit:</label>
+          <div class="col-sm-9 controls">
+            <select id="prefix" name="prefix" class="form-control">
+              <option></option>
+              <option value="9">Construction</option>
+              <option value="7">Fellowship - Post-Doctoral</option>
+              <option value="6">Fellowship - Pre-Doctoral</option>
+              <option value="2">Instruction</option>
+              <option value="5">Other</option>
+              <option value="3">Public Service</option>
+              <option value="1">Research</option>
+            </select>
+          </div>
+        </div>
+
+        {{!-- Lead Unit --}}
+        <div class="form-group">
+          <label class="col-sm-3 control-label" for="prefix">Activity Type:</label>
+          <div class="col-sm-9 controls">
+            <select id="prefix" name="prefix" class="form-control">
+              <option></option>
+              <option value="9">Construction</option>
+              <option value="7">Fellowship - Post-Doctoral</option>
+              <option value="6">Fellowship - Pre-Doctoral</option>
+              <option value="2">Instruction</option>
+              <option value="5">Other</option>
+              <option value="3">Public Service</option>
+              <option value="1">Research</option>
+            </select>
           </div>
         </div>
 

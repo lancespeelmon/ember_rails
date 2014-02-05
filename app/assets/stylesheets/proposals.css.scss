@@ -29,6 +29,13 @@ section {
   box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
 }
 
+.navbar-default .navbar-nav .active,
+.navbar-default .navbar-nav a.active:hover,
+.navbar-default .navbar-nav a.active:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+
 /* ==========================================================================
    Twitter typeahead.js
    ========================================================================== */
