@@ -1,24 +1,54 @@
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Proposal</h3>
-  </div>
-  <div class="panel-body">
-    <div>
-      <table class="table">
-        <tr>
-          <th>#</th>
-          <th>Title</th>
-        </tr>
+<div class="container">
+  <div class="row clearfix">
+    <div class="col-lg-12 column">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Proposal</h3>
+        </div>
+        <div class="panel-body">
+          <div>
+            <table class="table">
+              <tr>
+                <th>#</th>
+                <th>Title</th>
+                <th>Type</th>
+                <th>Lead Unit</th>
+                <th>Activity Type</th>
+                <th>Sponsor Code</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+              </tr>
 
-        <tr>
-          <td>
-            {{docId}}
-          </td>
-          <td>
-            {{title}}
-          </td>
-        </tr>
-      </table>
+              <tr>
+                <td>
+                  {{docId}}
+                </td>
+                <td>
+                  {{title}}
+                </td>
+                <td>
+                  {{proposalType}}
+                </td>
+                <td>
+                  {{leadUnit}}
+                </td>
+                <td>
+                  {{activityType}}
+                </td>
+                <td>
+                  {{sponsorCode}}
+                </td>
+                <td>
+                  {{projectStartDate}}
+                </td>
+                <td>
+                  {{projectEndDate}}
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

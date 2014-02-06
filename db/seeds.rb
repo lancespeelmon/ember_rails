@@ -7,6 +7,6 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 puts "Seeding..."
 
-Proposal.create ([{doc_id: '12345', title: "Foo"}, {doc_id: '45678', title: "Bar"}])
+Proposal.create ([{doc_id: '12345', title: "Foo", proposal_type: "New", lead_unit: "Civil Engineering", activity_type: "Research", sponsor_code: "Air Force", project_start_date: DateTime.new(2014,2,5,19), project_end_date: DateTime.new(2015,2,5,19)}, {doc_id: '45678', title: "Bar"}])
 
 puts "Complete!"
