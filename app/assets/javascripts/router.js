@@ -5,7 +5,7 @@ EasyProposal.Router.map(function() {
 });
 
 EasyProposal.Router.map(function() {
-  this.resource("proposal", { path: "/proposal/:docId" });
+  this.resource("proposal", { path: "/proposal/:id" });
 });
 
 // redrect index route to proposals
