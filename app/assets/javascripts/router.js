@@ -16,5 +16,5 @@ EasyProposal.IndexRoute = Ember.Route.extend({
 });
 
 EasyProposal.Router.map(function() {
-  this.route("landing");
+  this.resource("proposal_basics");
 });

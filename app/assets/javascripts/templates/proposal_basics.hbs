@@ -12,12 +12,23 @@
       </ul>
     </div>
   </div>
-</div>
 
-<!--               <tr>
-                <td>
-                  {{docId}}
-                </td>
+  <div class="row clearfix">
+    <div class="col-lg-12 column">
+      <div class="panel-body">
+        <div>
+          <table class="table">
+            <tr>
+              <th>Title</th>
+              <th>Type</th>
+              <th>Lead Unit</th>
+              <th>Activity Type</th>
+              <th>Sponsor Code</th>
+              <th>Start Date</th>
+              <th>End Date</th>
+            </tr>
+            {{#each controller}}
+              <tr>
                 <td>
                   {{title}}
                 </td>
@@ -34,9 +45,17 @@
                   {{sponsorCode}}
                 </td>
                 <td>
-                  {{projectStartDate}}
+                  {{startDate}}
                 </td>
                 <td>
-                  {{projectEndDate}}
+                  {{endDate}}
                 </td>
- -->
+              </tr>
+            {{else}}
+              There are no proposal_basics!
+            {{/each}}
+          </table>
+        </div>
+    </div>
+  </div>
+</div>

@@ -1,7 +1,8 @@
 EasyProposal::Application.routes.draw do
+
   namespace :api do
     namespace :v1 do
-      resources :proposals
+      resources :proposals, :proposal_basics
     end
   end
 
