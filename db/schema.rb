@@ -13,9 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20140206230625) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "proposal_basics", force: true do |t|
     t.string   "proposal_type"
     t.string   "lead_unit"
@@ -39,16 +36,6 @@ ActiveRecord::Schema.define(version: 20140206230625) do
     t.string   "sponsor_code"
     t.date     "project_start_date"
     t.date     "project_end_date"
-  end
-
-  create_table "sponsors", force: true do |t|
-    t.string   "sponsor_code"
-    t.text     "sponsor_name"
-    t.string   "state"
-    t.string   "country_code"
-    t.string   "postal_code"
-    t.datetime "created_at"
-    t.datetime "updated_at"
   end
 
 end
